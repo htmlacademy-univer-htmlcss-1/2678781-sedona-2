@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000;
+}
+/*
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+*/
+.section-caption {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-text {
+  color: #333;
+  text-align: center;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+.button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.button.disabled {
+  background: #e5e5e5;
+}
+
+.button.main {
+  background-color: #756157;
+}
+.button.main:hover,
+.button.main:focus {
+  background-color: #615048;
+}
+
+.button.action {
+  background-color: #82B3D3;
+}
+.button.action:hover,
+.button.action:focus {
+  background-color: #68A2CA;
+}
+
+
+
+
+.page-header {
+  background: #fff;
+}
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+.actions-list .fav-count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #7DB54F;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.welcome {
+  background: #fff url(../images/welcome-bg.png) no-repeat;
+  background-size: 100% auto;
+  height: 485px;
+  text-align: center;
+}
+
+.city-advantages {
+  background: #fff;
+}
+
+.city-advantages-list .city-advantages-item {
+  text-align: center;
+  background: rgba(131, 179, 211, .12);
+}
+
+.city-advantages-list .city-advantages-item.item-color {
+  background-color: #82B3D3;
+  color: #fff;
+}
+.city-advantages-list .city-advantages-item.item-variance {
+  background: rgba(131, 179, 211, .20);
+}
+
+.city-advantages-list h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.city-advantages-list p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.visit-advantages {
+  background: #fff;
+}
+.visit-advantages-list .visit-advantages-item {
+  text-align: center;
+  background: rgba(131, 179, 211, .12);
+}
+.visit-advantages-list .visit-advantages-item.visit-advantages-whitebox {
+  background: #fff;
+}
+
+.visit-advantages-list h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.visit-advantages-list p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-search {
+  text-align: center;
+}
+
+.subscribe {
+  height: 414px;
+  background: rgba(131, 179, 211, .12) url(../images/subscribe-bg.jpg) no-repeat;
+}
+.subscribe .section-caption,
+.subscribe .section-text {
+  color: #fff;
+}
+
+.subscribe .subscribe-form {
+  text-align: center;
+}
+.subscribe .subscribe-email {
+  font-size: 18px;
+  line-height: 24px;
+}
+.subscribe .subscribe-email::placeholder {
+  color: #000;
+}
+
+.page-footer {
+  background: #fff;
+}
+
+.footer-contact-phone {
+  color: #000;
+  font-size: 40px;
+  line-height: 40px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer-contact-phone:hover,
+.footer-contact-phone:focus {
+  color: #756157;
+}
+
+.footer-contact-phone:active {
+  color: rgba(117, 97, 87, .30);
+}
+
+.hotel-catalog {
+  background: #fff;
+}
+
+.header-wrap {
+  background: rgba(131, 179, 211) url(../images/catalog-bg.jpg) no-repeat;
+  background-size: 100% auto;
+  color: #fff;
+}
+
+.header-wrap .breadcrumbs-link {
+  color: #fff;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.catalog-header h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.catalog-filter .catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+.catalog-filter .catalog-filter-title {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.catalog-filter .control-input {
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+}
+
+
+.filter-results .section-caption {
+  text-align: left;
+}
+.filter-results .select-control {
+  font-size: 18px;
+  line-height: 21px;
+  color: #333;
+}
+.hotel-list h4 {
+  font-size: 24px;
+  line-height: 28px;
+}
+.hotel-list p {
+  font-size: 18px;
+  line-height: 21px;
+}
+.hotel-list .rating {
+  font-size: 16px;
+  line-height: 20px;
+  background: #f2f2f2;
+}
+.pagination .active {
+  background: #f2f2f2;
+  color: #000;
+}
+
+.subscribe.light {
+  background: #fff;
+}
+.subscribe.light .section-caption,
+.subscribe.light .section-text {
+  color: #333;
+}
+.subscribe.light .subscribe-email {
+  background-color: #f2f2f2;
+}
