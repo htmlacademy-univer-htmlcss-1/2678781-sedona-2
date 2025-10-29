@@ -19,7 +19,7 @@
             <li class="navigation-item">
               <a class="navigation-link" href="#">О Седоне</a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item active">
               <a class="navigation-link">Гостиницы</a>
             </li>
           </ul>
@@ -34,12 +34,13 @@
           <li class="action-item">
             <a>
               <span class="visually-hidden">Избранное</span>
+              <!--<div class="fav-count">12</div>-->
             </a>
           </li>
           <li class="action-item">
-            <a>
+            <button type="button" class="button main">
               Хочу сюда
-            </a>
+            </button>
           </li>
         </ul>
       </header>
@@ -54,9 +55,9 @@
                     <span class="visually-hidden">Главная</span>
                   </a>
                 </li>
-                <li>
+                <li class="breadcrumbs-item">
                   <a href="catalog.html" class="breadcrumbs-link">
-                    Каталог
+                    Гостиницы
                   </a>
                 </li>
               </ol>
@@ -125,17 +126,17 @@
               </div>
               <ul class="display-type" aria-label="Тип отображения">
                 <li class="display-type-item">
-                  <button type="button" class="button">
+                  <button type="button">
                     <span class="visually-hidden">Плитка</span>
                   </button>
                 </li>
-                <li>
-                  <button type="button" class="button">
+                <li class="display-type-item">
+                  <button type="button">
                     <span class="visually-hidden">Детально</span>
                   </button>
                 </li>
-                <li>
-                  <button type="button" class="button">
+                <li class="display-type-item">
+                  <button type="button">
                     <span class="visually-hidden">Список</span>
                   </button>
                 </li>
@@ -197,7 +198,7 @@
                 <a href="#" class="button action">3</a>
               </li>
               <li class="page-item">
-                ...
+                <a href="#" class="button light ellipsys">...</a>
               </li>
               <li class="page-item">
                 <a href="#" class="button action">10</a>
